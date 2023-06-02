@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="container1">
+                <h1>Stay updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <div class="li1">
+                    <img src="images/icon-list.svg">
+                    <p>Product discovery and building what matters</p>
+                </div>
+                <div class="li2">
+                    <img src="images/icon-list.svg">
+                    <p>Measuring to ensure updates are a success</p>
+                </div>
+                <div class="li3">
+                    <img src="images/icon-list.svg">
+                    <p>And much more!</p>
+                </div>
+                <div class="actionDiv">
+                <div class="emailAndError">
+                    <p class="email">Email address</p>
+                    <p id="errorMsg"></p>
+                </div>
+                <input type="email" placeholder="email@company.com">
+                <button class="subscribe" onclick="val()">Subscribe to monthly newsletter</button>
+            </div>
+            </div>
+            <div class="container2">
+            </div>
+        </main>
+        <div class="message">
+            <img class="iconSuccess" src="images/icon-success.svg">
+            <h1 class="thanks">Thanks for subscribing!</h1>
+            <p>A confirmation email has been sent to <span id="enteredMail"></span>. Please open it and click the button inside to confirm your subscription.</p>
+            <button id="dissmiss">Dissmiss message</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
